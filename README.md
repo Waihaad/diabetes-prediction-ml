@@ -132,15 +132,18 @@ These results describe the reported experiments and do not establish clinical ef
 
 ## Tech Stack
 
-| Category | Tools |
+| Category | Tools & Technologies |
 |---|---|
-| Language | Python |
-| Data processing | Pandas, NumPy |
-| Machine learning | Scikit-learn, XGBoost |
-| Visualization | Matplotlib, Seaborn |
-| Model selection | Stratified cross-validation, GridSearchCV |
-| Development | Jupyter Notebook |
-| Application | Streamlit, if used by the project |
+| Programming Language | Python |
+| Data Analysis | Pandas, NumPy |
+| Data Visualization | Matplotlib, Seaborn |
+| Machine Learning | Scikit-learn, XGBoost |
+| Model Evaluation & Tuning | Stratified Cross-Validation, GridSearchCV, ROC-AUC |
+| Web Application | Streamlit |
+| Model Persistence | Joblib / Pickle |
+| Development Environment | Jupyter Notebook, VS Code |
+| Version Control | Git, GitHub |
+| Cloud Deployment | AWS (EC2) |
 
 ## Project Structure
 
@@ -203,12 +206,20 @@ The application command is applicable only if `app.py` is a Streamlit app and al
 
 ## Future Improvements
 
-- Add a reproducible requirements file and clear setup instructions.
-- Report precision and test ROC-AUC for each model where available.
-- Add confusion matrices and ROC curves.
-- Validate the evaluation setup and keep model selection separate from final test evaluation.
-- Improve reproducibility with fixed random seeds and documented preprocessing.
-- Assess generalization and limitations before any real-world use.
+- Model Optimization:Explore advanced techniques to improve predictive performance.
+- Explainable AI: Use SHAP or LIME to explain individual predictions.
+- Generalization Testing:** Evaluate performance on independent datasets and diverse populations.
+- Data Quality: Improve missing-value handling and feature engineering.
+- Responsible AI: Assess model bias and communicate prediction limitations.
+- Model Monitoring:Explore ways to detect changes in data and model performance over time.
+
+## Deployment
+
+-The Streamlit application was deployed on **AWS EC2** as part of the project     deployment process. The AWS resources were subsequently removed to avoid ongoing  infrastructure costs.
+
+Screenshots of the application interface and prediction results demonstrate the application's functionality.
+
+**Note: A live demo is currently unavailable because the AWS resources have been removed.
 
 ## Author
 
