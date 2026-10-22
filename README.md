@@ -214,13 +214,12 @@ The application command is applicable only if `app.py` is a Streamlit app and al
 - Model Monitoring:Explore ways to detect changes in data and model performance over time.
 
 ## Deployment
-
--The Streamlit application was deployed on **AWS EC2** as part of the project     deployment process. The AWS resources were subsequently removed to avoid ongoing  infrastructure costs.
-
-Screenshots of the application interface and prediction results demonstrate the application's functionality.
-
-**Note: A live demo is currently unavailable because the AWS resources have been removed.
-
+- Deployed the Diabetes Prediction application on AWS EC2 using an Ubuntu Linux environment.
+- Configured the environment to run the Streamlit application on port 5000.
+- Integrated the saved Logistic Regression model to generate predictions from user-provided health measurements.
+- Accessed the application through the EC2 instance's public IPv4 address.
+- Tested the application interface and verified positive and negative prediction results.
+Note:< The AWS resources have been removed to avoid ongoing infrastructure costs. The live demo is currently unavailable. Screenshots of the deployed application are included for reference. >
 ## Author
 
 **Waihaad Ahmed**
